@@ -1,0 +1,56 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white; 
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.paragraph {
+    font-weight: normal;
+}
+
+.mainImage {
+    background: url(/image/mainPicture.jpg) no-repeat -101px -5px;
+    background-size: 1096px 731px;
+    height: 568px;
+}
+
+.navbar-brand {
+    width: 55px;
+    height: 70px;
+    background: url(/image/LogoBVG.png) no-repeat 0 0;
+    background-size: 55px auto;
+}
+
+.btn-outline-light {
+    border-width: 2px;
+}
+
+.btn-contacts {
+    font-weight: 700;
+    width: 143px;
+    margin-top: -20px;
+}
+
+.btn-menu {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
+
+.menuCanvas {
+    margin-left: -13px;
+    margin-top: -8px;
+}
+
+.mainTitle {
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 80px; 
+}
