@@ -1,10 +1,51 @@
 * {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: white; 
+    color: white;
+    border: 0;
 }
 
 p {
     font-size: 20px;
     line-height: 30px;
+}
+
+a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #12e3f6;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 75px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 75px;
+}
+
+.nav-link.disabled {
+    color: #5d97e7;
+}
+
+.social-link {
+    cursor: pointer;
+}
+
+.first-block {
+    background-image: -moz-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
+    background-image: -webkit-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
+    background-image: -ms-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
+}
+
+button {
+    border-radius: 10px;
 }
