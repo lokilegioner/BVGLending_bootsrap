@@ -32,6 +32,10 @@ h2 {
     line-height: 75px;
 }
 
+button {
+    border-radius: 10px;
+}
+
 .nav-link.disabled {
     color: #5d97e7;
 }
@@ -46,6 +50,8 @@ h2 {
     background-image: -ms-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
 }
 
-button {
-    border-radius: 10px;
+.small-block {
+    font-size: 12px;
+    line-height: 18px;
+    color: #6d6d6d;
 }
