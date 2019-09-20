@@ -11,7 +11,6 @@ p {
 
 a {
     color: white;
-    text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
 }
@@ -32,8 +31,20 @@ h2 {
     line-height: 75px;
 }
 
+h4 {
+    font-weight: normal;
+}
+
+.extra-size {
+    font-size: 30px;
+}
+
 button {
     border-radius: 10px;
+}
+
+.extra-color {
+    background-color: #b5e1f0;
 }
 
 .nav-link.disabled {
@@ -48,6 +59,10 @@ button {
     background-image: -moz-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
     background-image: -webkit-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
     background-image: -ms-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
+}
+
+.third-block {
+    background-color: #f3f3f3;
 }
 
 .small-block {
