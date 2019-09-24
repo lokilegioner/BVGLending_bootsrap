@@ -74,7 +74,7 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 60%; */
     /* background-color: rgb(204, 155, 155); */
 }
 
@@ -83,7 +83,7 @@ button {
 }
 
 .small-block {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 18px;
     color: #6d6d6d;
 }
@@ -121,7 +121,7 @@ button {
 
     display: inline-block;
 
-    width: 20px;
+    width: 5px;                      /* width all dots */
     height: 20px;
     margin: 5px 10px;
     padding: 0;
@@ -159,7 +159,7 @@ button {
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 40px;
+    font-size: 56px;                      /*size dots*/
     line-height: 10px;
 
     position: absolute;
