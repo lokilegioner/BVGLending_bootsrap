@@ -33,6 +33,14 @@ h1 {
     line-height: 75px;
 }
 
+@media (max-width: 720px) {
+    h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+}
+
 .extra-weight {
     font-weight: normal;
 }
@@ -75,6 +83,11 @@ button {
 
 .social-link {
     cursor: pointer;
+}
+
+.title-logo {
+    width: 50%;
+    max-width: 200px;
 }
 
 .first-block {
