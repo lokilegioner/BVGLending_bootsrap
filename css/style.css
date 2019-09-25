@@ -61,16 +61,8 @@ button {
     border-radius: 10px;
 }
 
-.btn:focus {
-    box-shadow: none;
-}
-
 .extra-color {
     background-color: #b5e1f0;
-}
-
-.nav-link.disabled {
-    color: #5d97e7;
 }
 
 .social-link {
@@ -162,14 +154,6 @@ button {
     width: 25%;
 }
 
-.card-header {
-    height: 65px;
-}
-
-.card {
-    background-color: #f3f3f3;
-}
-
 .extra-width {
     width: 55%;
 }
@@ -218,9 +202,32 @@ button {
     margin-right: auto;
 }
 
-/* Dots */
 
 
+/*Bootstrap rewrite*/
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.nav-link.disabled {
+    color: #5d97e7;
+}
+
+.card-header {
+    height: 65px;
+}
+
+.card {
+    background-color: #f3f3f3;
+}
+
+.dropdown-menu {
+    text-align: right;
+    left: -72px;
+}
+
+/* Dots slick slider rewrite classes*/
 
 .slick-dotted.slick-slider
 {
