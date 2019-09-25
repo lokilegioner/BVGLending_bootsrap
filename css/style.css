@@ -74,26 +74,17 @@ button {
     max-width: 200px;
 }
 
-.first-block {
+.bg-purple {
     background-image: -moz-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
     background-image: -webkit-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
     background-image: -ms-linear-gradient( 29deg, rgb(151,61,228) 32%, rgb(93,40,183) 100%);
 }
 
-.third-block {
+.bg-gray {
     background-color: #f3f3f3;
 }
 
-.fourth-block {
-    /* background-color: rgb(166, 212, 255); */
-    padding: 20px;
-}
-
-.fifth-block {
-    padding-bottom: 40px;
-}
-
-.seventh-block {
+.bg-blue {
     background-color: #07dbee;
 }
 
