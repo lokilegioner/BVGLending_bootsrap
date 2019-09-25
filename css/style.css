@@ -33,14 +33,6 @@ h1 {
     line-height: 75px;
 }
 
-@media (max-width: 720px) {
-    h1 {
-        font-size: 35px;
-        line-height: 50px;
-        margin-top: 20px;
-    }
-}
-
 .extra-weight {
     font-weight: normal;
 }
@@ -166,6 +158,10 @@ button {
     margin-bottom: 50px;
 }
 
+.read-more {
+    width: 25%;
+}
+
 .card-header {
     height: 65px;
 }
@@ -176,6 +172,27 @@ button {
 
 .extra-width {
     width: 55%;
+}
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .accordion h4 {
+        margin-top: -10px;
+    }
+    .extra-width {
+        width: 98%;
+    }
+    .read-more {
+        width: 50%;
+    }
 }
 
 .user-input {

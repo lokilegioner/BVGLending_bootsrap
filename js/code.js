@@ -5,6 +5,14 @@ $(document).ready(function(){
         arrows: false,
         slidesToShow: 2,
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 540,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
     });
     $('.sl3').slick({
         infinite: true,
@@ -12,6 +20,14 @@ $(document).ready(function(){
         arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 540,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
     });
     $('.sl4').slick({
         infinite: true,
@@ -19,5 +35,13 @@ $(document).ready(function(){
         arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 540,
+              settings: {
+                slidesToShow: 2
+              }
+            }
+          ]
     });
   });
